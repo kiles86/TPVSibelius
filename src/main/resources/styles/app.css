@@ -1,0 +1,281 @@
+.root {
+    -fx-font-family: "Segoe UI";
+    -fx-background-color: linear-gradient(to bottom, #f7f9fc, #eef3f9);
+}
+
+.header {
+    -fx-background-color: linear-gradient(to right, #eaf2ff, #dfeafb);
+    -fx-padding: 16;
+}
+
+.header-title {
+    -fx-text-fill: #18314f;
+    -fx-font-size: 26px;
+    -fx-font-weight: bold;
+}
+
+.card {
+    -fx-background-color: rgba(255, 255, 255, 0.98);
+    -fx-background-radius: 16;
+    -fx-padding: 14;
+    -fx-border-color: rgba(44, 89, 142, 0.20);
+    -fx-border-radius: 16;
+    -fx-effect: dropshadow(gaussian, rgba(25,49,79,0.14), 14, 0.1, 0, 2);
+}
+
+.big-btn {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-background-color: #ef6c00;
+    -fx-background-radius: 12;
+    -fx-padding: 12 16 12 16;
+}
+
+.big-btn:hover {
+    -fx-background-color: #ff8f35;
+}
+
+.secondary-btn {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-background-color: #35617a;
+    -fx-background-radius: 10;
+    -fx-padding: 9 12 9 12;
+}
+
+.secondary-btn:hover {
+    -fx-background-color: #457d9a;
+}
+
+.label {
+    -fx-text-fill: #1f334d;
+}
+
+.tab-pane *.tab-header-area *.tab-header-background {
+    -fx-background-color: #161c26;
+}
+
+.tab-pane .tab {
+    -fx-background-color: #202938;
+}
+
+.tab-pane .tab:selected {
+    -fx-background-color: #2d3c53;
+}
+
+.tab-pane .tab-label {
+    -fx-text-fill: #e8edf8;
+    -fx-font-weight: bold;
+}
+
+.content-pane {
+    -fx-background-color: transparent;
+}
+
+.nav-sidebar {
+    -fx-background-color: linear-gradient(to bottom, #f0f5fd, #e6eef9);
+    -fx-background-radius: 14;
+    -fx-border-color: rgba(44, 89, 142, 0.25);
+    -fx-border-radius: 14;
+    -fx-padding: 12;
+}
+
+.menu-title {
+    -fx-text-fill: #2d5f94;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-padding: 0 0 8 4;
+}
+
+.nav-btn {
+    -fx-text-fill: #1e3a5b;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(to bottom, #ffffff, #f5f9ff);
+    -fx-border-color: rgba(44, 89, 142, 0.24);
+    -fx-border-width: 1;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-padding: 12 12 12 12;
+    -fx-alignment: center-left;
+}
+
+.nav-btn:hover {
+    -fx-background-color: linear-gradient(to bottom, #f4f8ff, #eaf2ff);
+}
+
+.nav-btn-active {
+    -fx-background-color: linear-gradient(to bottom, #2f7c4f, #276643);
+}
+
+.venta-root {
+    -fx-background-color: transparent;
+}
+
+.zone-card {
+    -fx-background-color: linear-gradient(to bottom right, rgba(255, 255, 255, 0.98), rgba(246, 250, 255, 0.98));
+    -fx-background-radius: 16;
+    -fx-border-color: rgba(44, 89, 142, 0.20);
+    -fx-border-width: 1;
+    -fx-border-radius: 16;
+    -fx-padding: 14;
+}
+
+.cart-panel {
+    -fx-background-color: linear-gradient(to bottom, rgba(247, 251, 255, 0.98), rgba(238, 245, 253, 0.98));
+    -fx-background-radius: 16;
+    -fx-border-color: #6aa1e8;
+    -fx-border-width: 1.5;
+    -fx-border-radius: 16;
+    -fx-padding: 14;
+}
+
+.section-title {
+    -fx-text-fill: #2f679f;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+}
+
+.sale-context {
+    -fx-text-fill: #1d3758;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+.group-btn {
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #e7f1ff;
+    -fx-background-color: linear-gradient(to bottom, #284569, #223b5a);
+    -fx-background-radius: 10;
+    -fx-padding: 10 14 10 14;
+}
+
+.group-btn:hover {
+    -fx-background-color: linear-gradient(to bottom, #376194, #2a4f7a);
+}
+
+.product-btn {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #f7fbff;
+    -fx-background-color: linear-gradient(to bottom right, #2f7c4f, #2a6946);
+    -fx-background-radius: 12;
+    -fx-padding: 10;
+}
+
+.product-btn:hover {
+    -fx-background-color: linear-gradient(to bottom right, #389b62, #327f55);
+}
+
+.table-btn {
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffffff;
+    -fx-background-radius: 12;
+}
+
+.action-primary {
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffffff;
+    -fx-background-color: linear-gradient(to bottom, #1f9a5e, #177746);
+    -fx-background-radius: 10;
+    -fx-padding: 10 14 10 14;
+}
+
+.action-primary:hover {
+    -fx-background-color: linear-gradient(to bottom, #27b46f, #1f9259);
+}
+
+.action-secondary {
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffffff;
+    -fx-background-color: linear-gradient(to bottom, #334055, #283245);
+    -fx-background-radius: 9;
+    -fx-padding: 8 12 8 12;
+}
+
+.action-secondary:hover {
+    -fx-background-color: linear-gradient(to bottom, #3d4d66, #334055);
+}
+
+.sale-actions {
+    -fx-alignment: center-left;
+}
+
+.combo-box,
+.text-field,
+.date-picker,
+.text-area,
+.table-view {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #1f334d;
+    -fx-border-color: rgba(44, 89, 142, 0.26);
+}
+
+.table-view {
+    -fx-control-inner-background: #ffffff;
+    -fx-table-cell-border-color: rgba(44, 89, 142, 0.12);
+    -fx-border-color: rgba(44, 89, 142, 0.26);
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #e8f0fb;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: #1d3658;
+    -fx-font-weight: bold;
+}
+
+.table-row-cell {
+    -fx-text-fill: #1f334d;
+}
+
+.table-row-cell:filled:selected {
+    -fx-background-color: #dceafd;
+}
+
+.table-free {
+    -fx-background-color: linear-gradient(to bottom, #2a8f52, #216f40);
+}
+
+.table-busy {
+    -fx-background-color: linear-gradient(to bottom, #b34a42, #8e3832);
+}
+
+.table-selector-grid {
+    -fx-hgap: 10;
+    -fx-vgap: 10;
+    -fx-padding: 8;
+}
+
+.table-selector-btn {
+    -fx-font-size: 17px;
+    -fx-font-weight: bold;
+    -fx-content-display: center;
+    -fx-alignment: center;
+}
+
+.table-selector-btn-selected {
+    -fx-border-color: #ffcc33;
+    -fx-border-width: 3;
+    -fx-border-radius: 12;
+}
+
+.table-empty-cell {
+    -fx-background-color: rgba(31, 51, 77, 0.05);
+    -fx-background-radius: 12;
+    -fx-border-color: rgba(31, 51, 77, 0.12);
+    -fx-border-radius: 12;
+}
+
+.total {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1f7f4f;
+}
